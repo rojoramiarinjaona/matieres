@@ -16,9 +16,9 @@ app.add_middleware(
 def get_db_connection():
     db_params = {
         "host": "enseignant.cshheptmedeq.us-east-1.rds.amazonaws.com",
-        "user": "admin",
-        "password": "latabatra",
-        "database": "enseignant",
+        "user": "",
+        "password": "",
+        "database": "",
     }
     return mysql.connector.connect(**db_params)
 
